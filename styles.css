@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    font-family: "Happy Monkey", cursive;
+    background-color: #db9d9d;
+    color: #ffffff;
+    border: 10px solid #f5c3c3;
+    margin: 0;
+}
+#header{
+    font-family: "helloKitty", "Happy Monkey", cursive;
+}
+@font-face {
+    font-family: helloKitty;
+    src: url(Boldins.ttf);
+  }
+#main {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    margin-top: 14px;
+}
+#monkey {
+    width: 190px;
+    border-radius: 100%;
+    border: 8px solid #f5c3c3;
+}
+h1, h2, h4, h3, p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+    background-color: #f5c3c3;
+    padding: 4px 7px;
+    border-radius: 5px;
+    width: 160px;
+    margin: 16px auto 10px auto;
+} 
+
+#bday-date {
+    background-color: #f5c3c3;
+    padding: 4px 7px;
+    border-radius: 5px;
+    width: 90px;
+    margin: 10px auto;
+}
+
+.gift {
+    width: 400px;
+    height: 400px;
+    border: 6px solid #f5c3c3;
+    border-radius: 10px;
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+#one:hover {
+    background-image: url("images/firstGif.webp");
+}
+#two{
+    width: 700px;
+    height: 400px;
+}
+#four{
+    width: 600px;
+    height: 500px;
+}
+#two:hover { 
+    background-image: url("images/secondGif.webp");
+}
+#three:hover { 
+    background-image: url("images/pookie.webp");
+}
+#four:hover { 
+    background-image: url("images/fourthGif.webp");
+}
+#fifth:hover {
+    background-image: url("images/fifthGif.webp");
+}
+.gift-head {
+    margin-bottom: 10px;
+}
+.gift-hint {
+    margin-top: 0px;
+}
+.gift-sec {
+    margin-top: 50px;
+}
